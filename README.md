@@ -1,13 +1,13 @@
 # Principal-Components-Analysis-vs-Autoencoders-for-Dimensionality-Reduction
-Using both Machine Learning and Deep Learning approaches for dimensionality reduction and comparing the performance by calculating the reconstruction error
+Using both Machine Learning and Deep Learning approaches for dimensionality reduction and comparing the performance by calculating the reconstruction error.
 
 # Autoencoder
 
-Autoenoder is an unsupervised learning where neural network are subject to task of Representation learning. In Simple word it imposed a bottleneck in network.(Bottleneck forces a compressed knowledge representation of input). As with any neural network there is a lot of flexibility in how autoencoders can be constructed such as the number of hidden layers and the number of nodes in each. With each hidden layer the network will attempt to find new structures in the data. In general autoencoders are symmetric with the middle layer being the bottleneck. The first half of the autoencoder is considered the encoder and the second half is considered the decoder.
+Autoenoder is an unsupervised learning algorithm in which neural networks are subject to task of Representation learning. In Simple words, it imposes a bottleneck in network.(Bottleneck forces a compressed knowledge representation of input). As with any neural network, there is a lot of flexibility in how autoencoders can be constructed such as the number of hidden layers and the number of nodes in each. With each hidden layer the network will attempt to find new structures in the data. In general, autoencoders are symmetric with the middle layer being the bottleneck. The first half of the autoencoder is considered the encoder and the second half is considered the decoder.
 
 # PCA
 
-PCA reduces the data frame by orthogonally transforming the data into a set of principal components. The first principal component explains the most amount of the variation in the data in a single component, the second component explains the second most amount of the variation, etc. By choosing the top k principal components that explain say 80-90% of the variation, the other components can be dropped since they do not significantly benefit the model. This procedure retains some of the latent information in the principal components which can help to build better models.
+PCA reduces the dimensionality of the data frame by orthogonally transforming the features into a set of principal components. The first principal component explains the most amount of the variation in the data in a single component, the second component explains the second most amount of the variation, etc. By choosing the top k principal components that explain say 80-90% of the variation, the other components can be dropped since they do not significantly benefit the model. This procedure retains some of the latent information in the principal components which can help to build better models.
 
 # Differences between PCA and autoencoders
 
